@@ -95,7 +95,8 @@ SERVER PROGRAM
     EnterTheCommand:
     Notepad
 ```
-    ![Output Screenshot](https://user-images.githubusercontent.com/65103675/142233316-57f4bf0b-4b0a-4079-b078-3fa7b6f6caab.jpg)
+
+![Output Screenshot](https://user-images.githubusercontent.com/65103675/142245137-50e4c6fe-d0fa-4686-a664-10ba38a53fef.jpg)
 
 
 **RESULT**
