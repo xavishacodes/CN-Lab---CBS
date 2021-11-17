@@ -34,9 +34,9 @@
       Runtime r=Runtime.getRuntime();
       Process p=r.exec(str);
 ```
-
-CLIENT PROGRAM
 ```
+CLIENT PROGRAM
+
       import java.io.*;
       import java.net.*;
       class clientRCE
@@ -95,5 +95,5 @@ SERVER PROGRAM
     ![Output Screenshot](https://user-images.githubusercontent.com/65103675/142233316-57f4bf0b-4b0a-4079-b078-3fa7b6f6caab.jpg)
 
 
-**RESULT**
+**RESULT**<br />
     Thus the implementation RCE is done & executed successfully.
