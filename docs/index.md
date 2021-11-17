@@ -1,10 +1,14 @@
-**CONTENT BEYOND SYLLABUS**                                                                                                               Sharwin Xavier R - 311119205050
-                                                       **IMPLEMENTATION OF REMOTE COMMAND EXECUTION (RCE)**
+```
+**CONTENT BEYOND SYLLABUS**                                                                           Sharwin Xavier R - 311119205050
+                                           **IMPLEMENTATION OF REMOTE COMMAND EXECUTION (RCE)**
 
 
 **AIM**
+  
   To implement Remote Command Execution(RCE).
+
 **ALGORITHM**
+  
   **CLIENT SIDE**
       1. Establish a connection between the Client and Server.
       Socket client=new Socket("127.0.0.1",6555);
@@ -15,6 +19,7 @@
       Send themessage to its output
       str=br.readLine();
       ps.println(str);
+  
   **SERVER SIDE**
       1. Accept the connection request by the client.
       ServerSocket server=new ServerSocket(6555);
@@ -49,6 +54,7 @@
       }
 
 **SERVER PROGRAM**
+      
       import java.io.*;
       import java.net.*;
       class serverRCE
