@@ -8,9 +8,9 @@
   To implement Remote Command Execution(RCE).
 
 **ALGORITHM**
-  
-  **CLIENT SIDE**
   ```
+  **CLIENT SIDE**
+  
       1. Establish a connection between the Client and Server.
       Socket client=new Socket("127.0.0.1",6555);
       2. Create instances for input and output streams.
@@ -21,6 +21,7 @@
       str=br.readLine();
       ps.println(str);
   ```
+  
   ```
   **SERVER SIDE**
       1. Accept the connection request by the client.
@@ -33,7 +34,8 @@
       Runtime r=Runtime.getRuntime();
       Process p=r.exec(str);
 ```
-**CLIENT PROGRAM**
+
+CLIENT PROGRAM
 ```
       import java.io.*;
       import java.net.*;
@@ -57,7 +59,7 @@
       }
       ```
 
-**SERVER PROGRAM**
+SERVER PROGRAM
       ```
       import java.io.*;
       import java.net.*;
@@ -83,13 +85,13 @@
       }
   ```
 **OUTPUT**
-```
+
     C:\NetworkingPrograms>java serverRCE
     C:\NetworkingPrograms>java clientRCE
     CLIENT WINDOW
     EnterTheCommand:
     Notepad
-    ```
+  
     ![Output Screenshot](https://user-images.githubusercontent.com/65103675/142233316-57f4bf0b-4b0a-4079-b078-3fa7b6f6caab.jpg)
 
 
