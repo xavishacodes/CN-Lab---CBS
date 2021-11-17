@@ -83,7 +83,8 @@ SERVER PROGRAM
       }
       }
       }
-  ```
+      ```
+
 **OUTPUT**
 
     C:\NetworkingPrograms>java serverRCE
@@ -91,9 +92,9 @@ SERVER PROGRAM
     CLIENT WINDOW
     EnterTheCommand:
     Notepad
-  
+   ```
     ![Output Screenshot](https://user-images.githubusercontent.com/65103675/142233316-57f4bf0b-4b0a-4079-b078-3fa7b6f6caab.jpg)
-
+```
 
 **RESULT**
     <br />
