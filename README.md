@@ -18,6 +18,7 @@
       Send themessage to its output<br />
       str=br.readLine();<br />
       ps.println(str);<br />
+  
   **SERVER SIDE**<br />
       1. Accept the connection request by the client.<br />
       ServerSocket server=new ServerSocket(6555);<br />
